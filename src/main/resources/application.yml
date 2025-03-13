@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/productdb  # Replace with your MongoDB URI if using a cloud service
+  web:
+    jackson:
+      default-property-inclusion: non_null  # Avoid serializing null fields
